@@ -10,3 +10,5 @@ print(txt)
 price = 59
 txt = f"der Preis ist {price} Evro"
 print(txt)
+
+print(txt + txt)
