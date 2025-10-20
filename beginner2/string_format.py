@@ -11,4 +11,9 @@ price = 59
 txt = f"der Preis ist {price} Evro"
 print(txt)
 
-print(txt + txt)
+#ein platzhalter kann einen modifier haben um den value zu formatieren. man fügt nen modifier mit nem : hinzu. beispielweise :.2f um einen float format zu haben
+
+price = 59
+
+txt = f"Der Preis ist {price:.2f} dollars"
+print(txt)
