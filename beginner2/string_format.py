@@ -17,3 +17,9 @@ price = 59
 
 txt = f"Der Preis ist {price:.2f} dollars"
 print(txt)
+
+#ein platzhalter kann Pythoncode beinhalten, wie bspw eine mathe operation
+
+txt =f"Der Preis ist {20 * 59} Evro"
+
+print(txt)
