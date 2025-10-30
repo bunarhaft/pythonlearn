@@ -62,3 +62,11 @@ class myclass():
 
 myobj = myclass()
 print(bool(myobj))
+
+#funktionen können nen boolean returnn
+
+print("gibt true aus")
+def myFunction() :
+    return True
+
+print(myFunction())
