@@ -34,11 +34,31 @@ print(bool())
 
 x = "allo"
 
-y = ""
+y = 0
 
-print("Es steht folgendes in variable x: {x} ")
+print(f"Es steht folgendes in variable x: {x} ")
 print(bool(x))
 
-print("Es steht folgendes in variable y: {y}")
+print(f"Es steht folgendes in variable y: {y}")
 print(bool(y))
 
+#false ist alles was leer ist und was 0 nicht
+
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool(()))
+print(bool([]))
+print(bool({}))
+
+#wert btw objekt in diesem fall ist false, wenn es eine funktion gibt die 0 zurückgibt
+
+print("wert btw objekt in diesem fall ist false, wenn es eine funktion gibt die 0 zurückgibt")
+
+class myclass():
+    def __len__(self):
+        return 0
+
+myobj = myclass()
+print(bool(myobj))
