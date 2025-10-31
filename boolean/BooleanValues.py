@@ -79,3 +79,21 @@ if myFunction():
   print("YES!")
 else:
   print("NO!")
+
+
+
+print("---------")
+
+booleanTest = True
+
+zahl1 = 102102039
+
+zahl2 = 100
+
+if(zahl1 < zahl2):
+    booleanTest = True
+
+else:
+   booleanTest = False
+
+print(booleanTest)
