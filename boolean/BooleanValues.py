@@ -97,3 +97,7 @@ else:
    booleanTest = False
 
 print(booleanTest)
+
+x = 200
+
+print(isinstance(x, int))
